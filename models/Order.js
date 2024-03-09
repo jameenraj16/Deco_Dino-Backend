@@ -3,6 +3,7 @@ const OrderSchema = mongoose.Schema(
   {
     products: {
       type: Object,
+      required: true,
     },
     owner: {
       type: mongoose.Schema.Types.ObjectId,
